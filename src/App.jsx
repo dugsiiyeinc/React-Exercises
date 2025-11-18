@@ -1,6 +1,7 @@
 import { UserCard } from "./exer 1/UserCard"
 import Blog from "./exer-2/Blog"
 import { DynamicUserCard } from "./exer-3/DynamicUserCard"
+import ToggleButton from "./exer-4/ToggleButton"
 
 function App(){
   return (
@@ -12,7 +13,7 @@ function App(){
       {/* <Blog/> */}
 
       {/* exercise 3 */}
-      <DynamicUserCard
+      {/* <DynamicUserCard
           name={"jamal abdiwahab"}
           email={"jamal@gmail.com"} 
       />
@@ -27,7 +28,10 @@ function App(){
       <DynamicUserCard
           name={"jamac mohamed"}
           email={"jamac@gmail.com"} 
-      />
+      /> */}
+
+      {/* exercise 4 */}
+      <ToggleButton/>
     </>
   )
 }
