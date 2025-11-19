@@ -5,6 +5,7 @@ import ToggleButton from "./exer-4/ToggleButton"
 import ShoppingCart from "./exer-5/ShoppingCart"
 import ChangingTheTitle from "./exer-6/ChangingTheTitle"
 import MouseTracking from "./exer-7/MouseTracking"
+import Countdown from "./exer-8/Countdown"
 
 function App(){
   return (
@@ -43,7 +44,10 @@ function App(){
       {/* <ChangingTheTitle/> */}
 
       {/* exercise 7 */}
-      <MouseTracking/>
+      {/* <MouseTracking/> */}
+
+      {/* exercise 8 */}
+      <Countdown/>
     </>
   )
 }
