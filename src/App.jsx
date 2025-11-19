@@ -3,6 +3,7 @@ import Blog from "./exer-2/Blog"
 import { DynamicUserCard } from "./exer-3/DynamicUserCard"
 import ToggleButton from "./exer-4/ToggleButton"
 import ShoppingCart from "./exer-5/ShoppingCart"
+import ChangingTheTitle from "./exer-6/ChangingTheTitle"
 
 function App(){
   return (
@@ -35,7 +36,10 @@ function App(){
       {/* <ToggleButton/> */}
 
       {/* exercise 5 */}
-      <ShoppingCart/>
+      {/* <ShoppingCart/> */}
+
+      {/* exercise 6 */}
+      <ChangingTheTitle/>
     </>
   )
 }
