@@ -4,6 +4,7 @@ import { DynamicUserCard } from "./exer-3/DynamicUserCard"
 import ToggleButton from "./exer-4/ToggleButton"
 import ShoppingCart from "./exer-5/ShoppingCart"
 import ChangingTheTitle from "./exer-6/ChangingTheTitle"
+import MouseTracking from "./exer-7/MouseTracking"
 
 function App(){
   return (
@@ -39,7 +40,10 @@ function App(){
       {/* <ShoppingCart/> */}
 
       {/* exercise 6 */}
-      <ChangingTheTitle/>
+      {/* <ChangingTheTitle/> */}
+
+      {/* exercise 7 */}
+      <MouseTracking/>
     </>
   )
 }
