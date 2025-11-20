@@ -6,6 +6,7 @@ import ShoppingCart from "./exer-5/ShoppingCart"
 import ChangingTheTitle from "./exer-6/ChangingTheTitle"
 import MouseTracking from "./exer-7/MouseTracking"
 import Countdown from "./exer-8/Countdown"
+import GithubSearch from "./exer-9/GithubSearch"
 
 function App(){
   return (
@@ -47,7 +48,10 @@ function App(){
       {/* <MouseTracking/> */}
 
       {/* exercise 8 */}
-      <Countdown/>
+      {/* <Countdown/> */}
+
+      {/* exercise 9 */}
+      <GithubSearch/>
     </>
   )
 }
