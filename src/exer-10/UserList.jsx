@@ -1,12 +1,11 @@
 
-const UserList=(props)=>{
-    console.log(props.users[0]);
+const UserList=({users})=>{
     return(
         <div>
             <h1>User List</h1>
             <ul>
                 {
-                    props.users.map((user)=>(
+                    users.map((user)=>(
                         <li key={user.id}>name: {user.name} -   email:{user.email}</li>
                     ))
                 }
