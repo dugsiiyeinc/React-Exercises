@@ -10,9 +10,8 @@ const GithubSearch=()=>{
         try {
 
             if(!isClicked) return;
-
-            setLoading(true)
             const fetchUser=async ()=>{
+                setLoading(true)
                 const response=await fetch(`https://api.github.com/users/${inputValue}`)
                 const data=await response.json()
                 setUser(data)

@@ -1,4 +1,5 @@
 import { UserCard } from "./exer 1/UserCard"
+import UserList from "./exer-10/UserList"
 import Blog from "./exer-2/Blog"
 import { DynamicUserCard } from "./exer-3/DynamicUserCard"
 import ToggleButton from "./exer-4/ToggleButton"
@@ -9,6 +10,29 @@ import Countdown from "./exer-8/Countdown"
 import GithubSearch from "./exer-9/GithubSearch"
 
 function App(){
+  const users=[
+    {
+      id:1,
+      name:"jamal",
+      email:"jamal@gmail.com"
+    },
+    {
+      id:2,
+      name:"nor",
+      email:"nor@gmail.com"
+    },
+    {
+      id:3,
+      name:"ahmed",
+      email:"ahmed@gmail.com"
+    },
+    {
+      id:4,
+      name:"abdi",
+      email:"abdi@gmail.com"
+    },
+    
+  ]
   return (
     <>
       {/* exercise 1 */}
@@ -51,7 +75,10 @@ function App(){
       {/* <Countdown/> */}
 
       {/* exercise 9 */}
-      <GithubSearch/>
+      {/* <GithubSearch/> */}
+
+      {/* exercise 10 */}
+      <UserList users={users}/>
     </>
   )
 }
