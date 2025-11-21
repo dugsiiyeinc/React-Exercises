@@ -11,6 +11,7 @@ import Countdown from "./exer-8/Countdown"
 import GithubSearch from "./exer-9/GithubSearch"
 import LoginForm from "./exer-11/LoginForm"
 import Counter from "./exer-12/Counter"
+import DoubleCounter from "./exer-13/DoubleCounter"
 
 function App(){
   const users=[
@@ -87,7 +88,10 @@ function App(){
       {/* <LoginForm/> */}
 
       {/* exercise 12 */}
-      <Counter/>
+      {/* <Counter/> */}
+
+      {/* exercise 13 */}
+      <DoubleCounter/>
     </>
   )
 }
