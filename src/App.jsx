@@ -13,7 +13,8 @@ import LoginForm from "./exer-11/LoginForm"
 import Counter from "./exer-12/Counter"
 import DoubleCounter from "./exer-13/DoubleCounter"
 import MultiStepForm from "./exer-14/MultiStepForm"
-import Main from "./exer-15/Main"
+// import Main from "./exer-15/Main"
+import Main from "./exer-16/Main"
 
 function App(){
   const users=[
@@ -99,6 +100,9 @@ function App(){
       {/* <MultiStepForm/> */}
 
       {/* exercise 15 */}
+      {/* <Main/> */}
+
+      {/* exercise 16 */}
       <Main/>
     </>
   )
