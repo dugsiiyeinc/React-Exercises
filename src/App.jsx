@@ -16,6 +16,7 @@ import MultiStepForm from "./exer-14/MultiStepForm"
 // import Main from "./exer-15/Main"
 import Main from "./exer-16/Main"
 import ContactForm from "./exer-17/ContactForm"
+import {ContactApp} from "./exer-18/ContactApp"
 
 function App(){
   const users=[
@@ -107,7 +108,10 @@ function App(){
       {/* <Main/> */}
 
       {/* exercise 17 */}
-      <ContactForm/>
+      {/* <ContactForm/> */}
+
+      {/* exercise 18 */}
+      <ContactApp/>
     </>
   )
 }
