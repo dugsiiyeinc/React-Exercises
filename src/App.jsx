@@ -21,6 +21,7 @@ import {ContactApp} from "./exer-18/ContactApp"
 import TodoApp from "./exer-20/TodoApp"
 import StudentDashboard from "./exer-21/StudentDashboard"
 import MultipleInputs from "./exer-22/MultipleInputs"
+import MultipleFormData from "./exer-23/MultipleFormData"
 
 function App(){
   const users=[
@@ -127,7 +128,10 @@ function App(){
       {/* <StudentDashboard/> */}
 
       {/* exercise 22 */}
-      <MultipleInputs/>
+      {/* <MultipleInputs/> */}
+
+      {/* exercise 23 */}
+      <MultipleFormData/>
     </>
   )
 }
