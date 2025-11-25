@@ -20,6 +20,7 @@ import {ContactApp} from "./exer-18/ContactApp"
 // import TodoApp from "./exer-19/TodoApp"
 import TodoApp from "./exer-20/TodoApp"
 import StudentDashboard from "./exer-21/StudentDashboard"
+import MultipleInputs from "./exer-22/MultipleInputs"
 
 function App(){
   const users=[
@@ -123,7 +124,10 @@ function App(){
       {/* <TodoApp/> */}
 
       {/* exercise 21 */}
-      <StudentDashboard/>
+      {/* <StudentDashboard/> */}
+
+      {/* exercise 22 */}
+      <MultipleInputs/>
     </>
   )
 }
