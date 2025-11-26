@@ -23,6 +23,8 @@ import StudentDashboard from "./exer-21/StudentDashboard"
 import MultipleInputs from "./exer-22/MultipleInputs"
 import MultipleFormData from "./exer-23/MultipleFormData"
 import FormWithUseForm from "./exer-24/FormWithUseForm"
+import { Outlet } from "react-router"
+import NavBars from "./exer-25/components/NavBars"
 
 function App(){
   const users=[
@@ -135,7 +137,11 @@ function App(){
       {/* <MultipleFormData/> */}
 
       {/* exercise 24 */}
-      <FormWithUseForm/>
+      {/* <FormWithUseForm/> */}
+
+      {/* exercise 25 */}
+      <NavBars/>
+      <Outlet/>
     </>
   )
 }
